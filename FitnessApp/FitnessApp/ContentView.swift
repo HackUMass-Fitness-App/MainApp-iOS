@@ -9,12 +9,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject private var user = User(
+        id: 12345,
+        name: "Anthony",
+        workoutHistory: [
+            Workout(exerciseType: .Curl),
+            Workout(exerciseType: .BenchPress)])
 
     var body: some View {
         NavigationView {
             //Text("Hello World")
             VStack {
-                
+            ScrollView {
                 Button(action: {
                     print("select workout")
                 }) {
@@ -38,9 +45,19 @@ struct ContentView: View {
                         .foregroundColor(.black)
                 }
             )
+            }
+                .padding(.bottom)
+                    
+                .navigationBarTitle("Hi, \(user.name)")
+                .navigationBarItems(
+                    trailing: Button(action: {}) {
+                        Text("Gear")
+                    }.padding(.top, 90)
+                )
+            }
         }
     }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     
