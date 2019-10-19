@@ -1,6 +1,6 @@
 //
 //  HostingController.swift
-//  FitnessApp WatchKit Extension
+//  FitnessAppWatch Extension
 //
 //  Created by Larry Tseng on 10/19/19.
 //  Copyright © 2019 FitnessApp. All rights reserved.

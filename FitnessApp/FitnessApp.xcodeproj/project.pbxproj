@@ -7,78 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		461EB2C5235AC3D900271881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB2C4235AC3D900271881 /* AppDelegate.swift */; };
-		461EB2C7235AC3D900271881 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB2C6235AC3D900271881 /* SceneDelegate.swift */; };
-		461EB2C9235AC3D900271881 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB2C8235AC3D900271881 /* ContentView.swift */; };
-		461EB2CB235AC3DB00271881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461EB2CA235AC3DB00271881 /* Assets.xcassets */; };
-		461EB2CE235AC3DB00271881 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461EB2CD235AC3DB00271881 /* Preview Assets.xcassets */; };
-		461EB2D1235AC3DB00271881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461EB2CF235AC3DB00271881 /* LaunchScreen.storyboard */; };
-		461EB2DC235AC3DB00271881 /* FitnessAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB2DB235AC3DB00271881 /* FitnessAppTests.swift */; };
-		461EB2E7235AC3DB00271881 /* FitnessAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB2E6235AC3DB00271881 /* FitnessAppUITests.swift */; };
-		461EB2EC235AC3DB00271881 /* FitnessApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 461EB2EB235AC3DB00271881 /* FitnessApp WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		461EB2F2235AC3DB00271881 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461EB2F0235AC3DB00271881 /* Interface.storyboard */; };
-		461EB2F4235AC3DC00271881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461EB2F3235AC3DC00271881 /* Assets.xcassets */; };
-		461EB2FB235AC3DC00271881 /* FitnessApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 461EB2FA235AC3DC00271881 /* FitnessApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		461EB300235AC3DC00271881 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB2FF235AC3DC00271881 /* ContentView.swift */; };
-		461EB302235AC3DC00271881 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB301235AC3DC00271881 /* HostingController.swift */; };
-		461EB304235AC3DC00271881 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB303235AC3DC00271881 /* ExtensionDelegate.swift */; };
-		461EB306235AC3DC00271881 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB305235AC3DC00271881 /* NotificationController.swift */; };
-		461EB308235AC3DC00271881 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB307235AC3DC00271881 /* NotificationView.swift */; };
-		461EB30A235AC3DC00271881 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB309235AC3DC00271881 /* ComplicationController.swift */; };
-		461EB30C235AC3DD00271881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461EB30B235AC3DD00271881 /* Assets.xcassets */; };
-		461EB30F235AC3DD00271881 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461EB30E235AC3DD00271881 /* Preview Assets.xcassets */; };
+		461EB332235ADC8500271881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB331235ADC8500271881 /* AppDelegate.swift */; };
+		461EB334235ADC8500271881 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB333235ADC8500271881 /* SceneDelegate.swift */; };
+		461EB336235ADC8500271881 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB335235ADC8500271881 /* ContentView.swift */; };
+		461EB338235ADC8700271881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461EB337235ADC8700271881 /* Assets.xcassets */; };
+		461EB33B235ADC8700271881 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461EB33A235ADC8700271881 /* Preview Assets.xcassets */; };
+		461EB33E235ADC8700271881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461EB33C235ADC8700271881 /* LaunchScreen.storyboard */; };
+		461EB349235ADC8700271881 /* FitnessAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB348235ADC8700271881 /* FitnessAppTests.swift */; };
+		461EB354235ADC8700271881 /* FitnessAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB353235ADC8700271881 /* FitnessAppUITests.swift */; };
+		461EB367235ADCB100271881 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461EB365235ADCB100271881 /* Interface.storyboard */; };
+		461EB369235ADCB200271881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461EB368235ADCB200271881 /* Assets.xcassets */; };
+		461EB370235ADCB200271881 /* FitnessAppWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 461EB36F235ADCB200271881 /* FitnessAppWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		461EB375235ADCB200271881 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB374235ADCB200271881 /* ContentView.swift */; };
+		461EB377235ADCB200271881 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB376235ADCB200271881 /* HostingController.swift */; };
+		461EB379235ADCB200271881 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB378235ADCB200271881 /* ExtensionDelegate.swift */; };
+		461EB37B235ADCB200271881 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB37A235ADCB200271881 /* NotificationController.swift */; };
+		461EB37D235ADCB200271881 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB37C235ADCB200271881 /* NotificationView.swift */; };
+		461EB37F235ADCB200271881 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB37E235ADCB200271881 /* ComplicationController.swift */; };
+		461EB381235ADCB300271881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461EB380235ADCB300271881 /* Assets.xcassets */; };
+		461EB384235ADCB300271881 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461EB383235ADCB300271881 /* Preview Assets.xcassets */; };
+		461EB389235ADCB300271881 /* FitnessWatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 461EB363235ADCB100271881 /* FitnessWatchApp.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		461EB393235ADD0100271881 /* SensorCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB392235ADD0100271881 /* SensorCollection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		461EB2D8235AC3DB00271881 /* PBXContainerItemProxy */ = {
+		461EB345235ADC8700271881 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 461EB2B9235AC3D900271881 /* Project object */;
+			containerPortal = 461EB326235ADC8500271881 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 461EB2C0235AC3D900271881;
+			remoteGlobalIDString = 461EB32D235ADC8500271881;
 			remoteInfo = FitnessApp;
 		};
-		461EB2E3235AC3DB00271881 /* PBXContainerItemProxy */ = {
+		461EB350235ADC8700271881 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 461EB2B9235AC3D900271881 /* Project object */;
+			containerPortal = 461EB326235ADC8500271881 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 461EB2C0235AC3D900271881;
+			remoteGlobalIDString = 461EB32D235ADC8500271881;
 			remoteInfo = FitnessApp;
 		};
-		461EB2ED235AC3DB00271881 /* PBXContainerItemProxy */ = {
+		461EB371235ADCB200271881 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 461EB2B9235AC3D900271881 /* Project object */;
+			containerPortal = 461EB326235ADC8500271881 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 461EB2EA235AC3DB00271881;
-			remoteInfo = "FitnessApp WatchKit App";
+			remoteGlobalIDString = 461EB36E235ADCB200271881;
+			remoteInfo = "FitnessAppWatch Extension";
 		};
-		461EB2FC235AC3DC00271881 /* PBXContainerItemProxy */ = {
+		461EB387235ADCB300271881 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 461EB2B9235AC3D900271881 /* Project object */;
+			containerPortal = 461EB326235ADC8500271881 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 461EB2F9235AC3DC00271881;
-			remoteInfo = "FitnessApp WatchKit Extension";
+			remoteGlobalIDString = 461EB362235ADCB100271881;
+			remoteInfo = FitnessAppWatch;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		461EB317235AC3DD00271881 /* Embed App Extensions */ = {
+		461EB38D235ADCB300271881 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				461EB2FB235AC3DC00271881 /* FitnessApp WatchKit Extension.appex in Embed App Extensions */,
+				461EB370235ADCB200271881 /* FitnessAppWatch Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		461EB31B235AC3DD00271881 /* Embed Watch Content */ = {
+		461EB391235ADCB300271881 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				461EB2EC235AC3DB00271881 /* FitnessApp WatchKit App.app in Embed Watch Content */,
+				461EB389235ADCB300271881 /* FitnessWatchApp.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,60 +87,61 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		461EB2C1235AC3D900271881 /* FitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		461EB2C4235AC3D900271881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		461EB2C6235AC3D900271881 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		461EB2C8235AC3D900271881 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		461EB2CA235AC3DB00271881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		461EB2CD235AC3DB00271881 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		461EB2D0235AC3DB00271881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		461EB2D2235AC3DB00271881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		461EB2D7235AC3DB00271881 /* FitnessAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		461EB2DB235AC3DB00271881 /* FitnessAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAppTests.swift; sourceTree = "<group>"; };
-		461EB2DD235AC3DB00271881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		461EB2E2235AC3DB00271881 /* FitnessAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		461EB2E6235AC3DB00271881 /* FitnessAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAppUITests.swift; sourceTree = "<group>"; };
-		461EB2E8235AC3DB00271881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		461EB2EB235AC3DB00271881 /* FitnessApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FitnessApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		461EB2F1235AC3DB00271881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		461EB2F3235AC3DC00271881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		461EB2F5235AC3DC00271881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		461EB2FA235AC3DC00271881 /* FitnessApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FitnessApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		461EB2FF235AC3DC00271881 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		461EB301235AC3DC00271881 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
-		461EB303235AC3DC00271881 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		461EB305235AC3DC00271881 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		461EB307235AC3DC00271881 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
-		461EB309235AC3DC00271881 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
-		461EB30B235AC3DD00271881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		461EB30E235AC3DD00271881 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		461EB310235AC3DD00271881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		461EB311235AC3DD00271881 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		461EB32E235ADC8500271881 /* FitnessWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		461EB331235ADC8500271881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		461EB333235ADC8500271881 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		461EB335235ADC8500271881 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		461EB337235ADC8700271881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		461EB33A235ADC8700271881 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		461EB33D235ADC8700271881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		461EB33F235ADC8700271881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461EB344235ADC8700271881 /* FitnessAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		461EB348235ADC8700271881 /* FitnessAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAppTests.swift; sourceTree = "<group>"; };
+		461EB34A235ADC8700271881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461EB34F235ADC8700271881 /* FitnessAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		461EB353235ADC8700271881 /* FitnessAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAppUITests.swift; sourceTree = "<group>"; };
+		461EB355235ADC8700271881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461EB363235ADCB100271881 /* FitnessWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		461EB366235ADCB100271881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		461EB368235ADCB200271881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		461EB36A235ADCB200271881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461EB36F235ADCB200271881 /* FitnessAppWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FitnessAppWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		461EB374235ADCB200271881 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		461EB376235ADCB200271881 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		461EB378235ADCB200271881 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		461EB37A235ADCB200271881 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		461EB37C235ADCB200271881 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		461EB37E235ADCB200271881 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		461EB380235ADCB300271881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		461EB383235ADCB300271881 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		461EB385235ADCB300271881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461EB386235ADCB300271881 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		461EB392235ADD0100271881 /* SensorCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorCollection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		461EB2BE235AC3D900271881 /* Frameworks */ = {
+		461EB32B235ADC8500271881 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		461EB2D4235AC3DB00271881 /* Frameworks */ = {
+		461EB341235ADC8700271881 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		461EB2DF235AC3DB00271881 /* Frameworks */ = {
+		461EB34C235ADC8700271881 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		461EB2F7235AC3DC00271881 /* Frameworks */ = {
+		461EB36C235ADCB200271881 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -149,101 +151,102 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		461EB2B8235AC3D900271881 = {
+		461EB325235ADC8500271881 = {
 			isa = PBXGroup;
 			children = (
-				461EB2C3235AC3D900271881 /* FitnessApp */,
-				461EB2DA235AC3DB00271881 /* FitnessAppTests */,
-				461EB2E5235AC3DB00271881 /* FitnessAppUITests */,
-				461EB2EF235AC3DB00271881 /* FitnessApp WatchKit App */,
-				461EB2FE235AC3DC00271881 /* FitnessApp WatchKit Extension */,
-				461EB2C2235AC3D900271881 /* Products */,
+				461EB330235ADC8500271881 /* FitnessApp */,
+				461EB347235ADC8700271881 /* FitnessAppTests */,
+				461EB352235ADC8700271881 /* FitnessAppUITests */,
+				461EB364235ADCB100271881 /* FitnessAppWatch */,
+				461EB373235ADCB200271881 /* FitnessAppWatch Extension */,
+				461EB32F235ADC8500271881 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		461EB2C2235AC3D900271881 /* Products */ = {
+		461EB32F235ADC8500271881 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				461EB2C1235AC3D900271881 /* FitnessApp.app */,
-				461EB2D7235AC3DB00271881 /* FitnessAppTests.xctest */,
-				461EB2E2235AC3DB00271881 /* FitnessAppUITests.xctest */,
-				461EB2EB235AC3DB00271881 /* FitnessApp WatchKit App.app */,
-				461EB2FA235AC3DC00271881 /* FitnessApp WatchKit Extension.appex */,
+				461EB32E235ADC8500271881 /* FitnessWatchApp.app */,
+				461EB344235ADC8700271881 /* FitnessAppTests.xctest */,
+				461EB34F235ADC8700271881 /* FitnessAppUITests.xctest */,
+				461EB363235ADCB100271881 /* FitnessWatchApp.app */,
+				461EB36F235ADCB200271881 /* FitnessAppWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		461EB2C3235AC3D900271881 /* FitnessApp */ = {
+		461EB330235ADC8500271881 /* FitnessApp */ = {
 			isa = PBXGroup;
 			children = (
-				461EB2C4235AC3D900271881 /* AppDelegate.swift */,
-				461EB2C6235AC3D900271881 /* SceneDelegate.swift */,
-				461EB2C8235AC3D900271881 /* ContentView.swift */,
-				461EB2CA235AC3DB00271881 /* Assets.xcassets */,
-				461EB2CF235AC3DB00271881 /* LaunchScreen.storyboard */,
-				461EB2D2235AC3DB00271881 /* Info.plist */,
-				461EB2CC235AC3DB00271881 /* Preview Content */,
+				461EB331235ADC8500271881 /* AppDelegate.swift */,
+				461EB333235ADC8500271881 /* SceneDelegate.swift */,
+				461EB335235ADC8500271881 /* ContentView.swift */,
+				461EB337235ADC8700271881 /* Assets.xcassets */,
+				461EB33C235ADC8700271881 /* LaunchScreen.storyboard */,
+				461EB33F235ADC8700271881 /* Info.plist */,
+				461EB339235ADC8700271881 /* Preview Content */,
 			);
 			path = FitnessApp;
 			sourceTree = "<group>";
 		};
-		461EB2CC235AC3DB00271881 /* Preview Content */ = {
+		461EB339235ADC8700271881 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				461EB2CD235AC3DB00271881 /* Preview Assets.xcassets */,
+				461EB33A235ADC8700271881 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		461EB2DA235AC3DB00271881 /* FitnessAppTests */ = {
+		461EB347235ADC8700271881 /* FitnessAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				461EB2DB235AC3DB00271881 /* FitnessAppTests.swift */,
-				461EB2DD235AC3DB00271881 /* Info.plist */,
+				461EB348235ADC8700271881 /* FitnessAppTests.swift */,
+				461EB34A235ADC8700271881 /* Info.plist */,
 			);
 			path = FitnessAppTests;
 			sourceTree = "<group>";
 		};
-		461EB2E5235AC3DB00271881 /* FitnessAppUITests */ = {
+		461EB352235ADC8700271881 /* FitnessAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				461EB2E6235AC3DB00271881 /* FitnessAppUITests.swift */,
-				461EB2E8235AC3DB00271881 /* Info.plist */,
+				461EB353235ADC8700271881 /* FitnessAppUITests.swift */,
+				461EB355235ADC8700271881 /* Info.plist */,
 			);
 			path = FitnessAppUITests;
 			sourceTree = "<group>";
 		};
-		461EB2EF235AC3DB00271881 /* FitnessApp WatchKit App */ = {
+		461EB364235ADCB100271881 /* FitnessAppWatch */ = {
 			isa = PBXGroup;
 			children = (
-				461EB2F0235AC3DB00271881 /* Interface.storyboard */,
-				461EB2F3235AC3DC00271881 /* Assets.xcassets */,
-				461EB2F5235AC3DC00271881 /* Info.plist */,
+				461EB365235ADCB100271881 /* Interface.storyboard */,
+				461EB368235ADCB200271881 /* Assets.xcassets */,
+				461EB36A235ADCB200271881 /* Info.plist */,
 			);
-			path = "FitnessApp WatchKit App";
+			path = FitnessAppWatch;
 			sourceTree = "<group>";
 		};
-		461EB2FE235AC3DC00271881 /* FitnessApp WatchKit Extension */ = {
+		461EB373235ADCB200271881 /* FitnessAppWatch Extension */ = {
 			isa = PBXGroup;
 			children = (
-				461EB2FF235AC3DC00271881 /* ContentView.swift */,
-				461EB301235AC3DC00271881 /* HostingController.swift */,
-				461EB303235AC3DC00271881 /* ExtensionDelegate.swift */,
-				461EB305235AC3DC00271881 /* NotificationController.swift */,
-				461EB307235AC3DC00271881 /* NotificationView.swift */,
-				461EB309235AC3DC00271881 /* ComplicationController.swift */,
-				461EB30B235AC3DD00271881 /* Assets.xcassets */,
-				461EB310235AC3DD00271881 /* Info.plist */,
-				461EB311235AC3DD00271881 /* PushNotificationPayload.apns */,
-				461EB30D235AC3DD00271881 /* Preview Content */,
+				461EB374235ADCB200271881 /* ContentView.swift */,
+				461EB376235ADCB200271881 /* HostingController.swift */,
+				461EB378235ADCB200271881 /* ExtensionDelegate.swift */,
+				461EB37A235ADCB200271881 /* NotificationController.swift */,
+				461EB37C235ADCB200271881 /* NotificationView.swift */,
+				461EB37E235ADCB200271881 /* ComplicationController.swift */,
+				461EB380235ADCB300271881 /* Assets.xcassets */,
+				461EB385235ADCB300271881 /* Info.plist */,
+				461EB386235ADCB300271881 /* PushNotificationPayload.apns */,
+				461EB382235ADCB300271881 /* Preview Content */,
+				461EB392235ADD0100271881 /* SensorCollection.swift */,
 			);
-			path = "FitnessApp WatchKit Extension";
+			path = "FitnessAppWatch Extension";
 			sourceTree = "<group>";
 		};
-		461EB30D235AC3DD00271881 /* Preview Content */ = {
+		461EB382235ADCB300271881 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				461EB30E235AC3DD00271881 /* Preview Assets.xcassets */,
+				461EB383235ADCB300271881 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -251,125 +254,125 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		461EB2C0235AC3D900271881 /* FitnessApp */ = {
+		461EB32D235ADC8500271881 /* FitnessApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 461EB31C235AC3DD00271881 /* Build configuration list for PBXNativeTarget "FitnessApp" */;
+			buildConfigurationList = 461EB358235ADC8700271881 /* Build configuration list for PBXNativeTarget "FitnessApp" */;
 			buildPhases = (
-				461EB2BD235AC3D900271881 /* Sources */,
-				461EB2BE235AC3D900271881 /* Frameworks */,
-				461EB2BF235AC3D900271881 /* Resources */,
-				461EB31B235AC3DD00271881 /* Embed Watch Content */,
+				461EB32A235ADC8500271881 /* Sources */,
+				461EB32B235ADC8500271881 /* Frameworks */,
+				461EB32C235ADC8500271881 /* Resources */,
+				461EB391235ADCB300271881 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				461EB2EE235AC3DB00271881 /* PBXTargetDependency */,
+				461EB388235ADCB300271881 /* PBXTargetDependency */,
 			);
 			name = FitnessApp;
 			productName = FitnessApp;
-			productReference = 461EB2C1235AC3D900271881 /* FitnessApp.app */;
+			productReference = 461EB32E235ADC8500271881 /* FitnessWatchApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		461EB2D6235AC3DB00271881 /* FitnessAppTests */ = {
+		461EB343235ADC8700271881 /* FitnessAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 461EB31F235AC3DD00271881 /* Build configuration list for PBXNativeTarget "FitnessAppTests" */;
+			buildConfigurationList = 461EB35B235ADC8700271881 /* Build configuration list for PBXNativeTarget "FitnessAppTests" */;
 			buildPhases = (
-				461EB2D3235AC3DB00271881 /* Sources */,
-				461EB2D4235AC3DB00271881 /* Frameworks */,
-				461EB2D5235AC3DB00271881 /* Resources */,
+				461EB340235ADC8700271881 /* Sources */,
+				461EB341235ADC8700271881 /* Frameworks */,
+				461EB342235ADC8700271881 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				461EB2D9235AC3DB00271881 /* PBXTargetDependency */,
+				461EB346235ADC8700271881 /* PBXTargetDependency */,
 			);
 			name = FitnessAppTests;
 			productName = FitnessAppTests;
-			productReference = 461EB2D7235AC3DB00271881 /* FitnessAppTests.xctest */;
+			productReference = 461EB344235ADC8700271881 /* FitnessAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		461EB2E1235AC3DB00271881 /* FitnessAppUITests */ = {
+		461EB34E235ADC8700271881 /* FitnessAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 461EB322235AC3DD00271881 /* Build configuration list for PBXNativeTarget "FitnessAppUITests" */;
+			buildConfigurationList = 461EB35E235ADC8700271881 /* Build configuration list for PBXNativeTarget "FitnessAppUITests" */;
 			buildPhases = (
-				461EB2DE235AC3DB00271881 /* Sources */,
-				461EB2DF235AC3DB00271881 /* Frameworks */,
-				461EB2E0235AC3DB00271881 /* Resources */,
+				461EB34B235ADC8700271881 /* Sources */,
+				461EB34C235ADC8700271881 /* Frameworks */,
+				461EB34D235ADC8700271881 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				461EB2E4235AC3DB00271881 /* PBXTargetDependency */,
+				461EB351235ADC8700271881 /* PBXTargetDependency */,
 			);
 			name = FitnessAppUITests;
 			productName = FitnessAppUITests;
-			productReference = 461EB2E2235AC3DB00271881 /* FitnessAppUITests.xctest */;
+			productReference = 461EB34F235ADC8700271881 /* FitnessAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		461EB2EA235AC3DB00271881 /* FitnessApp WatchKit App */ = {
+		461EB362235ADCB100271881 /* FitnessAppWatch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 461EB318235AC3DD00271881 /* Build configuration list for PBXNativeTarget "FitnessApp WatchKit App" */;
+			buildConfigurationList = 461EB38E235ADCB300271881 /* Build configuration list for PBXNativeTarget "FitnessAppWatch" */;
 			buildPhases = (
-				461EB2E9235AC3DB00271881 /* Resources */,
-				461EB317235AC3DD00271881 /* Embed App Extensions */,
+				461EB361235ADCB100271881 /* Resources */,
+				461EB38D235ADCB300271881 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				461EB2FD235AC3DC00271881 /* PBXTargetDependency */,
+				461EB372235ADCB200271881 /* PBXTargetDependency */,
 			);
-			name = "FitnessApp WatchKit App";
-			productName = "FitnessApp WatchKit App";
-			productReference = 461EB2EB235AC3DB00271881 /* FitnessApp WatchKit App.app */;
+			name = FitnessAppWatch;
+			productName = FitnessAppWatch;
+			productReference = 461EB363235ADCB100271881 /* FitnessWatchApp.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		461EB2F9235AC3DC00271881 /* FitnessApp WatchKit Extension */ = {
+		461EB36E235ADCB200271881 /* FitnessAppWatch Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 461EB314235AC3DD00271881 /* Build configuration list for PBXNativeTarget "FitnessApp WatchKit Extension" */;
+			buildConfigurationList = 461EB38A235ADCB300271881 /* Build configuration list for PBXNativeTarget "FitnessAppWatch Extension" */;
 			buildPhases = (
-				461EB2F6235AC3DC00271881 /* Sources */,
-				461EB2F7235AC3DC00271881 /* Frameworks */,
-				461EB2F8235AC3DC00271881 /* Resources */,
+				461EB36B235ADCB200271881 /* Sources */,
+				461EB36C235ADCB200271881 /* Frameworks */,
+				461EB36D235ADCB200271881 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "FitnessApp WatchKit Extension";
-			productName = "FitnessApp WatchKit Extension";
-			productReference = 461EB2FA235AC3DC00271881 /* FitnessApp WatchKit Extension.appex */;
+			name = "FitnessAppWatch Extension";
+			productName = "FitnessAppWatch Extension";
+			productReference = 461EB36F235ADCB200271881 /* FitnessAppWatch Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		461EB2B9235AC3D900271881 /* Project object */ = {
+		461EB326235ADC8500271881 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = FitnessApp;
 				TargetAttributes = {
-					461EB2C0235AC3D900271881 = {
+					461EB32D235ADC8500271881 = {
 						CreatedOnToolsVersion = 11.1;
 					};
-					461EB2D6235AC3DB00271881 = {
+					461EB343235ADC8700271881 = {
 						CreatedOnToolsVersion = 11.1;
-						TestTargetID = 461EB2C0235AC3D900271881;
+						TestTargetID = 461EB32D235ADC8500271881;
 					};
-					461EB2E1235AC3DB00271881 = {
+					461EB34E235ADC8700271881 = {
 						CreatedOnToolsVersion = 11.1;
-						TestTargetID = 461EB2C0235AC3D900271881;
+						TestTargetID = 461EB32D235ADC8500271881;
 					};
-					461EB2EA235AC3DB00271881 = {
+					461EB362235ADCB100271881 = {
 						CreatedOnToolsVersion = 11.1;
 					};
-					461EB2F9235AC3DC00271881 = {
+					461EB36E235ADCB200271881 = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
 			};
-			buildConfigurationList = 461EB2BC235AC3D900271881 /* Build configuration list for PBXProject "FitnessApp" */;
+			buildConfigurationList = 461EB329235ADC8500271881 /* Build configuration list for PBXProject "FitnessApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -377,143 +380,144 @@
 				en,
 				Base,
 			);
-			mainGroup = 461EB2B8235AC3D900271881;
-			productRefGroup = 461EB2C2235AC3D900271881 /* Products */;
+			mainGroup = 461EB325235ADC8500271881;
+			productRefGroup = 461EB32F235ADC8500271881 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				461EB2C0235AC3D900271881 /* FitnessApp */,
-				461EB2D6235AC3DB00271881 /* FitnessAppTests */,
-				461EB2E1235AC3DB00271881 /* FitnessAppUITests */,
-				461EB2EA235AC3DB00271881 /* FitnessApp WatchKit App */,
-				461EB2F9235AC3DC00271881 /* FitnessApp WatchKit Extension */,
+				461EB32D235ADC8500271881 /* FitnessApp */,
+				461EB343235ADC8700271881 /* FitnessAppTests */,
+				461EB34E235ADC8700271881 /* FitnessAppUITests */,
+				461EB362235ADCB100271881 /* FitnessAppWatch */,
+				461EB36E235ADCB200271881 /* FitnessAppWatch Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		461EB2BF235AC3D900271881 /* Resources */ = {
+		461EB32C235ADC8500271881 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				461EB2D1235AC3DB00271881 /* LaunchScreen.storyboard in Resources */,
-				461EB2CE235AC3DB00271881 /* Preview Assets.xcassets in Resources */,
-				461EB2CB235AC3DB00271881 /* Assets.xcassets in Resources */,
+				461EB33E235ADC8700271881 /* LaunchScreen.storyboard in Resources */,
+				461EB33B235ADC8700271881 /* Preview Assets.xcassets in Resources */,
+				461EB338235ADC8700271881 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		461EB2D5235AC3DB00271881 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		461EB2E0235AC3DB00271881 /* Resources */ = {
+		461EB342235ADC8700271881 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		461EB2E9235AC3DB00271881 /* Resources */ = {
+		461EB34D235ADC8700271881 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				461EB2F4235AC3DC00271881 /* Assets.xcassets in Resources */,
-				461EB2F2235AC3DB00271881 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		461EB2F8235AC3DC00271881 /* Resources */ = {
+		461EB361235ADCB100271881 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				461EB30F235AC3DD00271881 /* Preview Assets.xcassets in Resources */,
-				461EB30C235AC3DD00271881 /* Assets.xcassets in Resources */,
+				461EB369235ADCB200271881 /* Assets.xcassets in Resources */,
+				461EB367235ADCB100271881 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461EB36D235ADCB200271881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461EB384235ADCB300271881 /* Preview Assets.xcassets in Resources */,
+				461EB381235ADCB300271881 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		461EB2BD235AC3D900271881 /* Sources */ = {
+		461EB32A235ADC8500271881 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				461EB2C5235AC3D900271881 /* AppDelegate.swift in Sources */,
-				461EB2C7235AC3D900271881 /* SceneDelegate.swift in Sources */,
-				461EB2C9235AC3D900271881 /* ContentView.swift in Sources */,
+				461EB332235ADC8500271881 /* AppDelegate.swift in Sources */,
+				461EB334235ADC8500271881 /* SceneDelegate.swift in Sources */,
+				461EB336235ADC8500271881 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		461EB2D3235AC3DB00271881 /* Sources */ = {
+		461EB340235ADC8700271881 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				461EB2DC235AC3DB00271881 /* FitnessAppTests.swift in Sources */,
+				461EB349235ADC8700271881 /* FitnessAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		461EB2DE235AC3DB00271881 /* Sources */ = {
+		461EB34B235ADC8700271881 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				461EB2E7235AC3DB00271881 /* FitnessAppUITests.swift in Sources */,
+				461EB354235ADC8700271881 /* FitnessAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		461EB2F6235AC3DC00271881 /* Sources */ = {
+		461EB36B235ADCB200271881 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				461EB302235AC3DC00271881 /* HostingController.swift in Sources */,
-				461EB300235AC3DC00271881 /* ContentView.swift in Sources */,
-				461EB306235AC3DC00271881 /* NotificationController.swift in Sources */,
-				461EB304235AC3DC00271881 /* ExtensionDelegate.swift in Sources */,
-				461EB308235AC3DC00271881 /* NotificationView.swift in Sources */,
-				461EB30A235AC3DC00271881 /* ComplicationController.swift in Sources */,
+				461EB377235ADCB200271881 /* HostingController.swift in Sources */,
+				461EB375235ADCB200271881 /* ContentView.swift in Sources */,
+				461EB37B235ADCB200271881 /* NotificationController.swift in Sources */,
+				461EB393235ADD0100271881 /* SensorCollection.swift in Sources */,
+				461EB379235ADCB200271881 /* ExtensionDelegate.swift in Sources */,
+				461EB37D235ADCB200271881 /* NotificationView.swift in Sources */,
+				461EB37F235ADCB200271881 /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		461EB2D9235AC3DB00271881 /* PBXTargetDependency */ = {
+		461EB346235ADC8700271881 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 461EB2C0235AC3D900271881 /* FitnessApp */;
-			targetProxy = 461EB2D8235AC3DB00271881 /* PBXContainerItemProxy */;
+			target = 461EB32D235ADC8500271881 /* FitnessApp */;
+			targetProxy = 461EB345235ADC8700271881 /* PBXContainerItemProxy */;
 		};
-		461EB2E4235AC3DB00271881 /* PBXTargetDependency */ = {
+		461EB351235ADC8700271881 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 461EB2C0235AC3D900271881 /* FitnessApp */;
-			targetProxy = 461EB2E3235AC3DB00271881 /* PBXContainerItemProxy */;
+			target = 461EB32D235ADC8500271881 /* FitnessApp */;
+			targetProxy = 461EB350235ADC8700271881 /* PBXContainerItemProxy */;
 		};
-		461EB2EE235AC3DB00271881 /* PBXTargetDependency */ = {
+		461EB372235ADCB200271881 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 461EB2EA235AC3DB00271881 /* FitnessApp WatchKit App */;
-			targetProxy = 461EB2ED235AC3DB00271881 /* PBXContainerItemProxy */;
+			target = 461EB36E235ADCB200271881 /* FitnessAppWatch Extension */;
+			targetProxy = 461EB371235ADCB200271881 /* PBXContainerItemProxy */;
 		};
-		461EB2FD235AC3DC00271881 /* PBXTargetDependency */ = {
+		461EB388235ADCB300271881 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 461EB2F9235AC3DC00271881 /* FitnessApp WatchKit Extension */;
-			targetProxy = 461EB2FC235AC3DC00271881 /* PBXContainerItemProxy */;
+			target = 461EB362235ADCB100271881 /* FitnessAppWatch */;
+			targetProxy = 461EB387235ADCB300271881 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		461EB2CF235AC3DB00271881 /* LaunchScreen.storyboard */ = {
+		461EB33C235ADC8700271881 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				461EB2D0235AC3DB00271881 /* Base */,
+				461EB33D235ADC8700271881 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		461EB2F0235AC3DB00271881 /* Interface.storyboard */ = {
+		461EB365235ADCB100271881 /* Interface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				461EB2F1235AC3DB00271881 /* Base */,
+				461EB366235ADCB100271881 /* Base */,
 			);
 			name = Interface.storyboard;
 			sourceTree = "<group>";
@@ -521,7 +525,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		461EB312235AC3DD00271881 /* Debug */ = {
+		461EB356235ADC8700271881 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -581,7 +585,7 @@
 			};
 			name = Debug;
 		};
-		461EB313235AC3DD00271881 /* Release */ = {
+		461EB357235ADC8700271881 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -635,93 +639,7 @@
 			};
 			name = Release;
 		};
-		461EB315235AC3DD00271881 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"FitnessApp WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = MZV7Q3YFM6;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "FitnessApp WatchKit Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.FitnessApp.FitnessApp.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
-			};
-			name = Debug;
-		};
-		461EB316235AC3DD00271881 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"FitnessApp WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = MZV7Q3YFM6;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "FitnessApp WatchKit Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.FitnessApp.FitnessApp.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
-			};
-			name = Release;
-		};
-		461EB319235AC3DD00271881 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MZV7Q3YFM6;
-				IBSC_MODULE = FitnessApp_WatchKit_Extension;
-				INFOPLIST_FILE = "FitnessApp WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.FitnessApp.FitnessApp.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
-			};
-			name = Debug;
-		};
-		461EB31A235AC3DD00271881 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MZV7Q3YFM6;
-				IBSC_MODULE = FitnessApp_WatchKit_Extension;
-				INFOPLIST_FILE = "FitnessApp WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.FitnessApp.FitnessApp.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
-			};
-			name = Release;
-		};
-		461EB31D235AC3DD00271881 /* Debug */ = {
+		461EB359235ADC8700271881 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -734,14 +652,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.FitnessApp.FitnessApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FitnessApp.FitnessWatchApp;
+				PRODUCT_NAME = FitnessWatchApp;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		461EB31E235AC3DD00271881 /* Release */ = {
+		461EB35A235ADC8700271881 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -754,14 +672,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.FitnessApp.FitnessApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FitnessApp.FitnessWatchApp;
+				PRODUCT_NAME = FitnessWatchApp;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		461EB320235AC3DD00271881 /* Debug */ = {
+		461EB35C235ADC8700271881 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -783,7 +701,7 @@
 			};
 			name = Debug;
 		};
-		461EB321235AC3DD00271881 /* Release */ = {
+		461EB35D235ADC8700271881 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -805,7 +723,7 @@
 			};
 			name = Release;
 		};
-		461EB323235AC3DD00271881 /* Debug */ = {
+		461EB35F235ADC8700271881 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -825,7 +743,7 @@
 			};
 			name = Debug;
 		};
-		461EB324235AC3DD00271881 /* Release */ = {
+		461EB360235ADC8700271881 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -842,67 +760,153 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FitnessApp;
+			};
+			name = Release;
+		};
+		461EB38B235ADCB300271881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FitnessAppWatch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = MZV7Q3YFM6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "FitnessAppWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FitnessApp.FitnessWatchApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		461EB38C235ADCB300271881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FitnessAppWatch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = MZV7Q3YFM6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "FitnessAppWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FitnessApp.FitnessWatchApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		461EB38F235ADCB300271881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZV7Q3YFM6;
+				IBSC_MODULE = FitnessAppWatch_Extension;
+				INFOPLIST_FILE = FitnessAppWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FitnessApp.FitnessWatchApp.watchkitapp;
+				PRODUCT_NAME = FitnessWatchApp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		461EB390235ADCB300271881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZV7Q3YFM6;
+				IBSC_MODULE = FitnessAppWatch_Extension;
+				INFOPLIST_FILE = FitnessAppWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FitnessApp.FitnessWatchApp.watchkitapp;
+				PRODUCT_NAME = FitnessWatchApp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		461EB2BC235AC3D900271881 /* Build configuration list for PBXProject "FitnessApp" */ = {
+		461EB329235ADC8500271881 /* Build configuration list for PBXProject "FitnessApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				461EB312235AC3DD00271881 /* Debug */,
-				461EB313235AC3DD00271881 /* Release */,
+				461EB356235ADC8700271881 /* Debug */,
+				461EB357235ADC8700271881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		461EB314235AC3DD00271881 /* Build configuration list for PBXNativeTarget "FitnessApp WatchKit Extension" */ = {
+		461EB358235ADC8700271881 /* Build configuration list for PBXNativeTarget "FitnessApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				461EB315235AC3DD00271881 /* Debug */,
-				461EB316235AC3DD00271881 /* Release */,
+				461EB359235ADC8700271881 /* Debug */,
+				461EB35A235ADC8700271881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		461EB318235AC3DD00271881 /* Build configuration list for PBXNativeTarget "FitnessApp WatchKit App" */ = {
+		461EB35B235ADC8700271881 /* Build configuration list for PBXNativeTarget "FitnessAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				461EB319235AC3DD00271881 /* Debug */,
-				461EB31A235AC3DD00271881 /* Release */,
+				461EB35C235ADC8700271881 /* Debug */,
+				461EB35D235ADC8700271881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		461EB31C235AC3DD00271881 /* Build configuration list for PBXNativeTarget "FitnessApp" */ = {
+		461EB35E235ADC8700271881 /* Build configuration list for PBXNativeTarget "FitnessAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				461EB31D235AC3DD00271881 /* Debug */,
-				461EB31E235AC3DD00271881 /* Release */,
+				461EB35F235ADC8700271881 /* Debug */,
+				461EB360235ADC8700271881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		461EB31F235AC3DD00271881 /* Build configuration list for PBXNativeTarget "FitnessAppTests" */ = {
+		461EB38A235ADCB300271881 /* Build configuration list for PBXNativeTarget "FitnessAppWatch Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				461EB320235AC3DD00271881 /* Debug */,
-				461EB321235AC3DD00271881 /* Release */,
+				461EB38B235ADCB300271881 /* Debug */,
+				461EB38C235ADCB300271881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		461EB322235AC3DD00271881 /* Build configuration list for PBXNativeTarget "FitnessAppUITests" */ = {
+		461EB38E235ADCB300271881 /* Build configuration list for PBXNativeTarget "FitnessAppWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				461EB323235AC3DD00271881 /* Debug */,
-				461EB324235AC3DD00271881 /* Release */,
+				461EB38F235ADCB300271881 /* Debug */,
+				461EB390235ADCB300271881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 461EB2B9235AC3D900271881 /* Project object */;
+	rootObject = 461EB326235ADC8500271881 /* Project object */;
 }

@@ -1,6 +1,6 @@
 //
 //  ExtensionDelegate.swift
-//  FitnessApp WatchKit Extension
+//  FitnessAppWatch Extension
 //
 //  Created by Larry Tseng on 10/19/19.
 //  Copyright © 2019 FitnessApp. All rights reserved.
@@ -9,6 +9,8 @@
 import WatchKit
 
 class ExtensionDelegate: NSObject, WKExtensionDelegate {
+    
+   
 
     func applicationDidFinishLaunching() {
         // Perform any final initialization of your application.
@@ -16,6 +18,7 @@ class ExtensionDelegate: NSObject, WKExtensionDelegate {
 
     func applicationDidBecomeActive() {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        let sensorCollection: SensorCollection = SensorCollection()
     }
 
     func applicationWillResignActive() {
