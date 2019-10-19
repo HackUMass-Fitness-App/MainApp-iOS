@@ -17,9 +17,9 @@ class SensorCollection {
     init() {
         print("Running")
         accelQueue.name = "Accelerometer Queue"
-        manager.accelerometerUpdateInterval = 0.25;
+        manager.accelerometerUpdateInterval = 0.1;
         manager.startAccelerometerUpdates(to: accelQueue, withHandler: handleAccelData)
-        manager.deviceMotionUpdateInterval = 0.25;
+        manager.deviceMotionUpdateInterval = 0.1;
         manager.startDeviceMotionUpdates()
     }
     
@@ -36,7 +36,11 @@ class SensorCollection {
         let y = String(format: "%.2f", data.acceleration.y - deviceMotion.gravity.y)
         let z = String(format: "%.2f", data.acceleration.z - deviceMotion.gravity.z)
         
-        print("x: \(x), y: \(y), z: \(z), gravityX: \(deviceMotion.gravity.x)")
+        let thetaY = deviceMotion.attitude.pitch
+        let normalZ = String(format: "%.2f", (data.acceleration.z - deviceMotion.gravity.z) * cos(thetaY))
+        
+        // print("x: \(x), y: \(y), z: \(z), pitch(y): \(thetaY), normalZ: \(normalZ)")
+        print("\(normalZ)")
         
         if (-1.05 ..< -0.95).contains(deviceMotion.gravity.x)  {
             print("END")
