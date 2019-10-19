@@ -36,9 +36,9 @@ class SensorCollection {
         let y = String(format: "%.2f", data.acceleration.y - deviceMotion.gravity.y)
         let z = String(format: "%.2f", data.acceleration.z - deviceMotion.gravity.z)
         
-        print("x: \(x), y: \(y), z: \(z)")
+        print("x: \(x), y: \(y), z: \(z), gravityX: \(deviceMotion.gravity.x)")
         
-        if (0.95..<1.05).contains(deviceMotion.gravity.x)  {
+        if (-1.05 ..< -0.95).contains(deviceMotion.gravity.x)  {
             print("END")
         }
     }
