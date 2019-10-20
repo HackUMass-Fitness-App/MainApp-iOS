@@ -26,12 +26,11 @@
 		461EB384235ADCB300271881 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461EB383235ADCB300271881 /* Preview Assets.xcassets */; };
 		461EB389235ADCB300271881 /* FitnessWatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 461EB363235ADCB100271881 /* FitnessWatchApp.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		461EB393235ADD0100271881 /* SensorCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461EB392235ADD0100271881 /* SensorCollection.swift */; };
-		E8CD880E235B6E89007DACF9 /* tcColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD880D235B6E89007DACF9 /* tcColor.swift */; };
-
+		466131EA235BD85500152039 /* MainBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466131E9235BD85500152039 /* MainBodyView.swift */; };
 		46EA3F5B235BA825006C5B3C /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EA3F5A235BA825006C5B3C /* UserModel.swift */; };
 		46EA3F5D235BA907006C5B3C /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EA3F5C235BA907006C5B3C /* WorkoutModel.swift */; };
 		46EA3F63235BB345006C5B3C /* CardUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EA3F62235BB345006C5B3C /* CardUI.swift */; };
-
+		E8CD880E235B6E89007DACF9 /* tcColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD880D235B6E89007DACF9 /* tcColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,12 +100,11 @@
 		461EB385235ADCB300271881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		461EB386235ADCB300271881 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		461EB392235ADD0100271881 /* SensorCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorCollection.swift; sourceTree = "<group>"; };
-		E8CD880D235B6E89007DACF9 /* tcColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tcColor.swift; sourceTree = "<group>"; };
-
+		466131E9235BD85500152039 /* MainBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBodyView.swift; sourceTree = "<group>"; };
 		46EA3F5A235BA825006C5B3C /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		46EA3F5C235BA907006C5B3C /* WorkoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutModel.swift; sourceTree = "<group>"; };
 		46EA3F62235BB345006C5B3C /* CardUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUI.swift; sourceTree = "<group>"; };
-
+		E8CD880D235B6E89007DACF9 /* tcColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tcColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +152,7 @@
 				461EB331235ADC8500271881 /* AppDelegate.swift */,
 				461EB333235ADC8500271881 /* SceneDelegate.swift */,
 				461EB335235ADC8500271881 /* ContentView.swift */,
+				466131E9235BD85500152039 /* MainBodyView.swift */,
 				46EA3F5A235BA825006C5B3C /* UserModel.swift */,
 				46EA3F5C235BA907006C5B3C /* WorkoutModel.swift */,
 				461EB337235ADC8700271881 /* Assets.xcassets */,
@@ -345,12 +344,10 @@
 				461EB332235ADC8500271881 /* AppDelegate.swift in Sources */,
 				46EA3F5D235BA907006C5B3C /* WorkoutModel.swift in Sources */,
 				461EB334235ADC8500271881 /* SceneDelegate.swift in Sources */,
-
+				466131EA235BD85500152039 /* MainBodyView.swift in Sources */,
 				E8CD880E235B6E89007DACF9 /* tcColor.swift in Sources */,
-
 				46EA3F63235BB345006C5B3C /* CardUI.swift in Sources */,
 				46EA3F5B235BA825006C5B3C /* UserModel.swift in Sources */,
-
 				461EB336235ADC8500271881 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

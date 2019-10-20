@@ -11,8 +11,15 @@ import SwiftUI
 struct CardUI<C: View>: View {
     let innerView: C
     
-    init(_ innerView: () -> (C)) {
+    let background: Color
+    let cornerRadius: CGFloat
+    let padding: Bool
+    
+    init(_ innerView: () -> (C), _ background: Color = .white, _ cornerRad: CGFloat = 10, _ padding: Bool = true) {
         self.innerView = innerView()
+        self.background = background
+        self.cornerRadius = cornerRad
+        self.padding = padding
     }
     
     var body: some View {
@@ -20,22 +27,21 @@ struct CardUI<C: View>: View {
             Spacer().frame(height: 50)
             HStack() {
                 Spacer()
-                Text("Hello")
                 innerView
                 Spacer()
             }
             Spacer().frame(height: 50)
         }
-        .background(Color.red)
-        .cornerRadius(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
-        .padding()
+        .background(self.background)
+        .cornerRadius(self.cornerRadius)
+        .padding(.all, self.padding ? nil : 0)
     }
 }
 
 struct CardUI_Previews: PreviewProvider {
     static var previews: some View {
-        CardUI {
-            Text("Hi")
-        }
+        CardUI({
+            Text("Hello")
+        }, .red, 10, true)
     }
 }

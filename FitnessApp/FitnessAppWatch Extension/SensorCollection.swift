@@ -17,9 +17,9 @@ class SensorCollection {
     init() {
         print("Running")
         accelQueue.name = "Accelerometer Queue"
-        manager.accelerometerUpdateInterval = 0.1;
+        manager.accelerometerUpdateInterval = 0.05;
         manager.startAccelerometerUpdates(to: accelQueue, withHandler: handleAccelData)
-        manager.deviceMotionUpdateInterval = 0.1;
+        manager.deviceMotionUpdateInterval = 0.05;
         manager.startDeviceMotionUpdates()
     }
     
