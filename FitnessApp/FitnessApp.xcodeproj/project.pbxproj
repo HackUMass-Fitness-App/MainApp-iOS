@@ -31,6 +31,7 @@
 		46EA3F5D235BA907006C5B3C /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EA3F5C235BA907006C5B3C /* WorkoutModel.swift */; };
 		46EA3F63235BB345006C5B3C /* CardUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EA3F62235BB345006C5B3C /* CardUI.swift */; };
 		E8CD880E235B6E89007DACF9 /* tcColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD880D235B6E89007DACF9 /* tcColor.swift */; };
+		E8DBC2AB235BFCA3004084D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DBC2AA235BFCA3004084D2 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		46EA3F5C235BA907006C5B3C /* WorkoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutModel.swift; sourceTree = "<group>"; };
 		46EA3F62235BB345006C5B3C /* CardUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUI.swift; sourceTree = "<group>"; };
 		E8CD880D235B6E89007DACF9 /* tcColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tcColor.swift; sourceTree = "<group>"; };
+		E8DBC2AA235BFCA3004084D2 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,18 +150,19 @@
 		461EB330235ADC8500271881 /* FitnessApp */ = {
 			isa = PBXGroup;
 			children = (
+				E8DBC2B0235BFD01004084D2 /* Storyboards */,
+				E8DBC2AF235BFCFD004084D2 /* Services */,
+				E8DBC2AE235BFCF5004084D2 /* Models */,
+				E8DBC2AD235BFCF1004084D2 /* Views */,
+				E8DBC2AC235BFCEB004084D2 /* ViewControllers */,
 				46EA3F62235BB345006C5B3C /* CardUI.swift */,
 				461EB331235ADC8500271881 /* AppDelegate.swift */,
 				461EB333235ADC8500271881 /* SceneDelegate.swift */,
 				461EB335235ADC8500271881 /* ContentView.swift */,
 				466131E9235BD85500152039 /* MainBodyView.swift */,
-				46EA3F5A235BA825006C5B3C /* UserModel.swift */,
-				46EA3F5C235BA907006C5B3C /* WorkoutModel.swift */,
 				461EB337235ADC8700271881 /* Assets.xcassets */,
-				461EB33C235ADC8700271881 /* LaunchScreen.storyboard */,
 				461EB33F235ADC8700271881 /* Info.plist */,
 				461EB339235ADC8700271881 /* Preview Content */,
-				E8CD880D235B6E89007DACF9 /* tcColor.swift */,
 			);
 			path = FitnessApp;
 			sourceTree = "<group>";
@@ -206,6 +209,46 @@
 				461EB383235ADCB300271881 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E8DBC2AC235BFCEB004084D2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E8DBC2AD235BFCF1004084D2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E8DBC2AE235BFCF5004084D2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				46EA3F5A235BA825006C5B3C /* UserModel.swift */,
+				46EA3F5C235BA907006C5B3C /* WorkoutModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E8DBC2AF235BFCFD004084D2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E8CD880D235B6E89007DACF9 /* tcColor.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E8DBC2B0235BFD01004084D2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E8DBC2AA235BFCA3004084D2 /* Main.storyboard */,
+				461EB33C235ADC8700271881 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +356,7 @@
 				461EB33E235ADC8700271881 /* LaunchScreen.storyboard in Resources */,
 				461EB33B235ADC8700271881 /* Preview Assets.xcassets in Resources */,
 				461EB338235ADC8700271881 /* Assets.xcassets in Resources */,
+				E8DBC2AB235BFCA3004084D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,7 +565,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FitnessApp/Preview Content\"";
-				DEVELOPMENT_TEAM = MZV7Q3YFM6;
+				DEVELOPMENT_TEAM = 268QRXVK86;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FitnessApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -541,7 +585,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FitnessApp/Preview Content\"";
-				DEVELOPMENT_TEAM = MZV7Q3YFM6;
+				DEVELOPMENT_TEAM = 268QRXVK86;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FitnessApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -561,7 +605,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FitnessAppWatch Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = MZV7Q3YFM6;
+				DEVELOPMENT_TEAM = 268QRXVK86;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "FitnessAppWatch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -585,7 +629,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FitnessAppWatch Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = MZV7Q3YFM6;
+				DEVELOPMENT_TEAM = 268QRXVK86;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "FitnessAppWatch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -609,7 +653,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MZV7Q3YFM6;
+				DEVELOPMENT_TEAM = 268QRXVK86;
 				IBSC_MODULE = FitnessAppWatch_Extension;
 				INFOPLIST_FILE = FitnessAppWatch/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.FitnessApp.FitnessWatchApp.watchkitapp;
@@ -628,7 +672,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MZV7Q3YFM6;
+				DEVELOPMENT_TEAM = 268QRXVK86;
 				IBSC_MODULE = FitnessAppWatch_Extension;
 				INFOPLIST_FILE = FitnessAppWatch/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.FitnessApp.FitnessWatchApp.watchkitapp;

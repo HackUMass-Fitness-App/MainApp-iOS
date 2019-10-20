@@ -10,18 +10,18 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @ObservedObject private var user = User(
-        id: 12345,
-        name: "Anthony",
-        workoutHistory: [
-            Workout(exerciseType: .Curl),
-            Workout(exerciseType: .BenchPress)])
+//    @ObservedObject private var user = User(
+//        id: 12345,
+//        name: "Anthony",
+//        workoutHistory: [
+//            Workout(exerciseType: .Curl),
+//            Workout(exerciseType: .BenchPress)])
     
     var body: some View {
         NavigationView {
             MainBodyView()
-            .background(Color.gray)
-            .navigationBarTitle("Hi, \(user.name)")
+                .background(Color.init(.secondarySystemBackground))
+            //.navigationBarTitle("Hi, \(user.name)")
             .navigationBarItems(trailing:
                 Button(action: {
                     print("settings")

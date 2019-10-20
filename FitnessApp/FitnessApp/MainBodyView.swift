@@ -10,12 +10,13 @@ import SwiftUI
 
 struct MainBodyView: View {
     
-    @ObservedObject public var user = User(
+    public var user = User(
         id: 12345,
         name: "Anthony",
         workoutHistory: [
-            Workout(exerciseType: .Curl),
-            Workout(exerciseType: .BenchPress)])
+            Workout(id: 0, exerciseType: .Curl),
+            Workout(id: 1, exerciseType: .BenchPress)])
+    
     
     var body: some View {
         VStack {
@@ -23,13 +24,10 @@ struct MainBodyView: View {
                 CardUI({
                     Text("Stats")
                 })
-                CardUI({
-//                    List(user.workoutHistory) { item in
-//
-//                    }
-                    Text("History")
-                })
             }
+//            List (users.workoutHistory){
+//                Text($0.)
+//            }
             Button(action: {
                 print("select workout")
             }) {
@@ -41,7 +39,7 @@ struct MainBodyView: View {
                     .foregroundColor(Color.white)
                     .cornerRadius(100)
             }
-            .padding(.horizontal, 15)
+            .padding()
         }
     }
 }

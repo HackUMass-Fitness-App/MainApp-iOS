@@ -9,7 +9,7 @@
 import Foundation
 
 struct Workout: Identifiable {
-    let id: String = UUID().uuidString
+    let id: Int
     let exerciseType: ExerciseType
 }
 

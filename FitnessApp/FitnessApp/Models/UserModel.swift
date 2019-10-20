@@ -8,7 +8,7 @@
 
 import Foundation
 
-class User: ObservableObject {
+class User {
     let id: Int
     let name: String
     let workoutHistory: [Workout]
